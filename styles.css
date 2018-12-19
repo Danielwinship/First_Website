@@ -128,6 +128,15 @@ input[type="text"] {
 
 }
 
+input[type="password"] {
+    font-size: 20px;
+    width:400px;
+    min-width: 100px;
+    padding: 5px;
+    border-radius: 7px;
+
+}
+
 
 /* ################## Mobile ############### */
 @media screen and (max-width: 680px) {
@@ -171,6 +180,11 @@ input[type="text"] {
     }
 
     input[type="text"] {
+        width:300px;
+        
+    }
+
+    input[type="password"] {
         width:300px;
         
     }
