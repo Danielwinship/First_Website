@@ -6,6 +6,16 @@ body {
     margin: 0;
 }
 
+label {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.2;
+}
+
 nav, 
 header, 
 footer {
@@ -45,6 +55,9 @@ footer {
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
+* {
+    box-sizing: border-box;
+}
 
 /*#################### Nav bar#################### */
 nav {
@@ -99,6 +112,39 @@ ul.topnav li.dropdownIcon {
     background: linear-gradient(#076DFF,#65a5ff);
 }
 
+div.box {
+    margin:24px;
+    padding:36px 24px 40px 24px;
+    border-radius: 7px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, .15),
+    0 2px 3px 0 rgba(0, 0, 0, .1);
+}
+
+button {
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+    background-color: #0069ff;
+    padding: 15px 60px;
+    display: block;
+    text-align: center;
+    margin: 5px;
+    border-radius: 7px;
+
+}
+
+button.learnMore {
+    display: block;
+    margin: auto;
+}
+
+div.icon {
+    width: 100%;
+
+}
+
 .leftSide-col {
     margin-left: 30%;
 }
@@ -112,6 +158,11 @@ h1.large {
     font-size: 56px;
     margin: 0;
     line-height: 70px;
+}
+
+h1.section2Header {
+    font-size: 65px;
+    text-align: center;
 }
 
 form h2 {
@@ -169,10 +220,20 @@ input[type="password"] {
         text-align: left;
     }
 
-    .col-6 {
+    h1.section2Header {
+        font-size: 50px;
+    }
+
+    .col-6,
+    .col-4 {
         width: 100%;
         margin: 0;
        
+    }
+
+    div.box {
+        padding: 5px;
+        display: block;
     }
 
     div.leftSide-col, div.rightSide-col {
