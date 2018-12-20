@@ -202,7 +202,7 @@ input[type="password"] {
 
 
 /* ################## Mobile ############### */
-@media only screen and (max-width: 800px) {
+/* @media only screen and (max-width: 800px) {
     ul.topnav li:not(:nth-child(1)) {
         display: none;
     }
@@ -285,7 +285,7 @@ input[type="password"] {
     }
 
 
-}
+} */
 
 /* ################## iPhone ############### */
 @media only screen 
