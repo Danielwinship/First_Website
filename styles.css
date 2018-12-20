@@ -289,8 +289,8 @@ input[type="password"] {
 
 /* ################## iPhone ############### */
 @media only screen 
-    and (device-width : 414px) 
-    and (device-height : 736px) 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
     and (-webkit-device-pixel-ratio : 3)
 {
     ul.topnav li:not(:nth-child(1)) {
