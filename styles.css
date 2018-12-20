@@ -286,3 +286,93 @@ input[type="password"] {
 
 
 }
+
+/* ################## iPhone ############### */
+@media only screen 
+    and (device-width : 414px) 
+    and (device-height : 736px) 
+    and (-webkit-device-pixel-ratio : 3)
+{
+    ul.topnav li:not(:nth-child(1)) {
+        display: none;
+    }
+    
+    ul.topnav li.dropdownIcon {
+        display: block;
+        float: right;
+    }
+
+    ul.topnav.responsive li.dropdownIcon {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    ul.topnav.responsive {
+        position: relative;
+    }
+
+    ul.topnav.responsive li {
+        display: inline;
+        float: none;
+    }
+
+    ul.topnav.responsive li a {
+        display: block;
+        text-align: left;
+    }
+
+    h1.section2Header {
+        font-size: 50px;
+    }
+
+    article p {
+        font-size: 20px;
+    }
+
+    .col-6,
+    .col-4,
+    .col-7,
+    .col-5 {
+        width: 100%;
+        margin: 0;
+       
+    }
+
+    div.box {
+        padding: 5px;
+        display: block;
+    }
+
+    div.slopeIcon {
+        margin: 10px;
+    }
+
+    div.slopeIcon img {
+        width: 100%;
+        
+    }
+
+    div.leftSide-col, div.rightSide-col {
+        margin: 15px;
+    }
+
+    input[type="text"] {
+        width:300px;
+        
+    }
+
+    input[type="password"] {
+        width:300px;
+        
+    }
+
+    .videoContainer iframe {
+        position: relative;
+        width: 100%;
+        margin: 0;
+        overflow:hidden;
+    }
+
+
+}
